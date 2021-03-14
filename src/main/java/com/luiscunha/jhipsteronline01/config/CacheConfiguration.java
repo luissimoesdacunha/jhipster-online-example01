@@ -47,6 +47,10 @@ public class CacheConfiguration {
             createCache(cm, com.luiscunha.jhipsteronline01.domain.User.class.getName());
             createCache(cm, com.luiscunha.jhipsteronline01.domain.Authority.class.getName());
             createCache(cm, com.luiscunha.jhipsteronline01.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.luiscunha.jhipsteronline01.domain.Car.class.getName());
+            createCache(cm, com.luiscunha.jhipsteronline01.domain.Car.class.getName() + ".documents");
+            createCache(cm, com.luiscunha.jhipsteronline01.domain.Document.class.getName());
+            createCache(cm, com.luiscunha.jhipsteronline01.domain.Content.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
