@@ -1,0 +1,23 @@
+{
+  "jhipsteronlineexample01App": {
+    "content": {
+      "home": {
+        "title": "Contents",
+        "createLabel": "Criar novo(a) Content",
+        "createOrEditLabel": "Criar ou editar Content",
+        "notFound": "Nenhum Contents encontrado"
+      },
+      "created": "Um novo Content foi criado com o identificador {{ param }}",
+      "updated": "Content com identificador {{ param }} foi actualizado",
+      "deleted": "Content com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Content {{ id }}?"
+      },
+      "detail": {
+        "title": "Content"
+      },
+      "data": "Data",
+      "document": "Document"
+    }
+  }
+}

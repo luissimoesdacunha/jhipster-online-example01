@@ -1,0 +1,23 @@
+{
+  "jhipsteronlineexample01App": {
+    "car": {
+      "home": {
+        "title": "Cars",
+        "createLabel": "Criar novo(a) Car",
+        "createOrEditLabel": "Criar ou editar Car",
+        "notFound": "Nenhum Cars encontrado"
+      },
+      "created": "Um novo Car foi criado com o identificador {{ param }}",
+      "updated": "Car com identificador {{ param }} foi actualizado",
+      "deleted": "Car com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Car {{ id }}?"
+      },
+      "detail": {
+        "title": "Car"
+      },
+      "model": "Model",
+      "document": "Document"
+    }
+  }
+}
